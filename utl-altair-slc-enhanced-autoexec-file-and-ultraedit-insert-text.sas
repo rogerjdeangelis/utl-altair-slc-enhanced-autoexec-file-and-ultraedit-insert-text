@@ -98,7 +98,7 @@ options ls=255 ps=65
  validvarname=upcase
  nolabel
  compress=no
- FORMCHAR='|----|+|---+=|-/\<>*')
+ FORMCHAR='|----|+|---+=|-/\<>*'
 ;
 
 run;quit;
