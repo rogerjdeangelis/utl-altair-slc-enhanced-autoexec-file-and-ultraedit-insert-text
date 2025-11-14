@@ -41,14 +41,14 @@ CONTENTS
      export data=class r=class;
      submit;
      library(sqldf)
-     options(sqldf.dll = "d:/dll/sqlean.dll")
-     endsubmit;
+     options(sqldf.dll = "d:/dll/sqlean.dll")    
      table=sqldf('
         select
           *
         from
           class')
      print(table);
+     endsubmit;
      import data=table r=table;
      run;
      quit;
