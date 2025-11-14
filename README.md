@@ -44,13 +44,13 @@ Altair slc enhanced autoexec file and ultraedit insert text
          submit;
          library(sqldf)
          options(sqldf.dll = "d:/dll/sqlean.dll")
-         endsubmit;
          table=sqldf('
             select
               *
             from
               class')
          print(table);
+         endsubmit;
          import data=table r=table;
          run;
          quit;
