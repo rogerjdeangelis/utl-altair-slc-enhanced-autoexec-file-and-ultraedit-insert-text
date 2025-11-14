@@ -12,7 +12,7 @@ options ls=255 ps=65
  noquotelenmax
  validvarname=upcase
  compress=no
- FORMCHAR='|----|+|---+=|-/\<>*')
+ FORMCHAR='|----|+|---+=|-/\<>*'
 ;
 ----*/ 
  
@@ -94,6 +94,7 @@ NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY)) ;
 ,"South Dakota"   ,"Tennessee"      ,"Texas"          ,"Utah"             
 ,"Vermont"        ,"Virginia"       ,"Washington"     ,"West Virginia"    
 ,"Wisconsin"      ,"Wyoming")));                                          
+
 
 
 
