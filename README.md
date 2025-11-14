@@ -87,7 +87,7 @@ Altair slc enhanced autoexec file and ultraedit insert text
      noquotelenmax
      validvarname=upcase
      compress=no
-     FORMCHAR='|----|+|---+=|-/\<>*')
+     FORMCHAR='|----|+|---+=|-/\<>*'
     ;
     ----*/
 
