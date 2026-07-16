@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_autoexec_macrovars",
+  "source_file": "autoexec.sas",
+  "source_blob_sha": "213486ea7fe023a68f58ac44c6624b81ff77c45f",
+  "source_commit": "2ded09db6806d2c9bd22b2dc8c806953ce97c2d7",
+  "notes": "Split autoexec.sas into an OPTIONS-only autoexec (the repo's 'enhanced options that no longer requires &_init_') and a script.sas carrying the 'handy macro variables' block verbatim (letters/numbers/states50/months/days), plus a small PROC PRINT added to demonstrate every macro variable resolves. No data substitution needed; all inline %LET/datalines-free. autoexec.sas line 28 in the upstream repo has a stray trailing ')' after the FORMCHAR string that isn't present here (dropped as a typo, not part of the tested logic)."
+}
