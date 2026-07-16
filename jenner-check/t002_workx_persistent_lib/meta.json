@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_workx_persistent_lib",
+  "source_file": "autoexec.sas",
+  "source_blob_sha": "213486ea7fe023a68f58ac44c6624b81ff77c45f",
+  "source_commit": "2ded09db6806d2c9bd22b2dc8c806953ce97c2d7",
+  "notes": "Exercises the repo's documented 'persistent work library' pattern: libname workx wpd \"d:/wpswrkx\"; and the README's cleanup step (proc datasets lib=workx kill; run;quit;). Substituted the Windows-only wpd engine + absolute path for a portable base-engine libname at ./workx, added a small mock dataset (3 rows) written to and printed from workx, and a dictionary.tables check confirming the kill step removed the member -- same logic the author documents, running end to end."
+}

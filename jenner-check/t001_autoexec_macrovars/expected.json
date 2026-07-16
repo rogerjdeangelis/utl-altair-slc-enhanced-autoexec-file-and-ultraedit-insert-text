@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-16T06:08:12Z",
+  "_captured_run_id": "r_b29880ca1d6c44a2b135e003a0b97929",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Option VALIDVARNAME changed to UPCASE.",
+    "NOTE: Option FORMCHAR changed to |----|+|---+=|-/\\<>*.",
+    "NOTE: Wrote macrovars (5 rows, 2 columns).",
+    "NOTE: PROC PRINT completed: 5 observations printed, 2 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-16T06:08:12Z",
+  "_captured_run_id": "r_e33a4f3b84f54829aa9e09859e865d94",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Library WORKX assigned path=./workx.",
+    "NOTE: Wrote workx.persisted (3 rows, 2 columns).",
+    "NOTE: PROC PRINT completed: 3 observations printed, 2 variables",
+    "NOTE: NOTE: KILL option deleted 1 member(s) from library WORKX."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

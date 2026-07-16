@@ -1,0 +1,9 @@
+                                        Contents of the persistent workx library
+
+id     name
+ 1  alpha
+ 2  bravo
+ 3  charlie
+
+                                        Contents of the persistent workx library
+
